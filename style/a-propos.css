@@ -1,0 +1,58 @@
+.carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 80px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu + div {
+    text-align: center;
+  }
+  
+  .a-propos-main {
+    margin: auto;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  td, th{
+    border: 1px solid #a5b4fc;
+    padding: 15px;
+  }
+
+  td{
+    padding: 80px;
+  }
+
+  h2{
+    margin-bottom: 80px;
+  }
+
+  h1, h2{
+    text-align: center;
+  }
+
+  .cta{
+    margin-bottom: 160px;
+  }
+
+  @media screen and (max-width: 996px) {
+    .tarif{
+      display: none;
+    }
+  }
